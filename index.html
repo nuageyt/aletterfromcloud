@@ -16,7 +16,7 @@
  
 <style>
 html, body {
-    overflow-x: auto !important;
+    overflow-x: hidden !important;
     margin: 0 !important;
     padding: 0 !important;
     width: 100% !important;
@@ -26,18 +26,19 @@ html, body {
 .page_wrap, .page_body, .default .body {
     width: 100% !important;
     max-width: 100% !important;
-    overflow-x: visible !important;
+    overflow-x: hidden !important;
 }
 
 .default .text {
     font-size: 20px !important;
     line-height: 1.8 !important;
     text-align: justify !important;
-    padding: 5px 10px;
-    white-space: pre-wrap !important;
+    padding: 5px 16px;
+    white-space: normal !important;
     word-break: break-word !important;
-    overflow-x: auto !important;
-    display: block !important;
+    overflow-wrap: break-word !important;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
