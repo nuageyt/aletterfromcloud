@@ -634,3 +634,62 @@ div.toast_shown {
     margin-right: 8px;
     line-height: 20px;
 }
+
+#sửa file
+body {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #222;
+    background-color: #fafafa;
+}
+
+.default .text,
+.default .from_name,
+.default .details,
+.service .body {
+    font-size: 18px;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+.page_header .content .text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.from_name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #003366;
+}
+
+.details {
+    font-size: 15px;
+    color: #888;
+}
+
+/* Responsive cho màn hình nhỏ */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    .default .text,
+    .default .from_name,
+    .default .details {
+        font-size: 19px;
+    }
+
+    .page_header .content .text {
+        font-size: 26px;
+    }
+
+    .default .body {
+        margin-left: 50px;
+    }
+
+    .default .media_wrap img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
