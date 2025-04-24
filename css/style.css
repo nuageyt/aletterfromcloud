@@ -635,7 +635,7 @@ div.toast_shown {
     line-height: 20px;
 }
 
-#sửa file
+/* Cải thiện hiển thị chữ trên điện thoại */
 body {
     font-size: 16px;
     line-height: 1.7;
