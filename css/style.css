@@ -730,14 +730,25 @@ html, body {
 
 
 
-/* --- Final fix for horizontal scrolling on long text --- */
+/* --- Final true fix: allow full horizontal scroll in text containers --- */
+.page_wrap {
+    overflow-x: visible !important;
+}
+
+.page_body {
+    overflow-x: visible !important;
+}
+
+.default .body {
+    overflow-x: auto !important;
+    width: 100%;
+}
+
+/* Reconfirm .text container can scroll */
 .default .text {
     display: block;
-    width: 100%;
-    max-width: none;
     overflow-x: auto !important;
-    overflow-y: visible;
-    white-space: pre-wrap !important;
+    white-space: pre !important;
     word-break: break-word !important;
     text-align: justify !important;
     padding: 5px 16px 5px 10px;
