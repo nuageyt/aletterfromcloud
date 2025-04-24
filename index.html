@@ -2,6 +2,8 @@
 <html>
 
  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
 
   <meta charset="utf-8"/>
 <title>Été dans mes yeux</title>
@@ -16,24 +18,27 @@
  
 <style>
 html, body {
-    overflow-x: hidden !important;
     margin: 0 !important;
     padding: 0 !important;
+    overflow-x: hidden !important;
     width: 100% !important;
     max-width: 100% !important;
 }
 
-.page_wrap, .page_body, .default .body {
-    width: 100% !important;
+.page_wrap, .page_body, .page_header .content {
     max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
     overflow-x: hidden !important;
+    box-sizing: border-box;
 }
 
 .default .text {
     font-size: 20px !important;
     line-height: 1.8 !important;
-    text-align: justify !important;
     padding: 5px 16px;
+    text-align: justify !important;
     white-space: normal !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
