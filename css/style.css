@@ -639,14 +639,14 @@ div.toast_shown {
 /* --- Override chỉ phần default text --- */
 .default .text {
     font-size: 18px !important;
-    line-height: 1.4 !important;
+    line-height: 1.7 !important;
     text-align: justify !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
     white-space: normal !important;
     padding: 5px 12px !important;
-    margin-left: 0 !important;
-    margin-right: 12 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     max-width: 90vw !important;
     box-sizing: border-box !important;
 }
@@ -679,4 +679,20 @@ div.toast_shown {
         font-size: 20px !important;
         max-width: 100% !important;
     }
+}
+
+
+
+/* --- Giảm khoảng cách giữa avatar và tên người gửi --- */
+.userpic {
+    margin-right: 8px !important;
+}
+
+
+
+/* --- Fix chuẩn: header_wrap dùng flex để avatar và tên gần nhau --- */
+.header_wrap {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
 }
