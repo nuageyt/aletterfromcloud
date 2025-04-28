@@ -648,13 +648,13 @@ div.toast_shown {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .default .text {
-    font-size: 18px !important;
-    line-height: 1.25 !important;
+    font-size: 16px !important;
+    line-height: 1.1 !important;
     text-align: justify !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
