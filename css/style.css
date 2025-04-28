@@ -106,11 +106,7 @@ pre {
 .userpic_link:hover {
     text-decoration: none;
 }
-.userpic {
-    display: block;
-    border-radius: 50%;
-    overflow: hidden;
-}
+
 .story {
     display: block;
     border-radius: 4px;
@@ -271,9 +267,7 @@ div.selected {
 .service .userpic_wrap {
     padding-top: 10px;
 }
-.service .userpic {
-    margin: 0 auto;
-}
+.service 
 .service .userpic .initials {
     font-size: 24px;
 }
@@ -286,11 +280,7 @@ div.selected {
 .default.joined {
     margin-top: -10px;
 }
-.default .from_name {
-    color: #3892db;
-    font-weight: 700;
-    padding-bottom: 5px;
-}
+
 .default .from_name .details {
     font-weight: normal;
 }
@@ -617,9 +607,7 @@ div.toast_shown {
     margin-left: -8px;
 }
 
-.reactions .reaction .userpic {
-    display: inline-block;
-}
+.reactions .reaction 
 
 .reactions .reaction .userpic .initials {
     font-size: 8px;
@@ -672,9 +660,7 @@ body {
 
     .default .text,
     .default .from_name,
-    .default .details {
-        font-size: 19px;
-    }
+    
 
     .page_header .content .text {
         font-size: 26px;
@@ -743,6 +729,37 @@ html, body {
 
 
 
+/* Phần avatar chữ V và userpic tròn */
+.userpic {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #3892db;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Phần tên người gửi */
+.default .from_name {
+    color: #3892db;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Phần thời gian nhắn tin */
+.default .details {
+    float: right;
+    font-size: 14px;
+    color: #888;
+    padding-top: 4px;
+}
+
+/* Phần nội dung tin nhắn */
 .default .text {
     font-size: 18px;
     line-height: 1.7;
@@ -757,6 +774,7 @@ html, body {
     box-sizing: border-box;
 }
 
+/* Responsive cho điện thoại */
 @media screen and (max-width: 600px) {
     .default .text {
         font-size: 20px;
