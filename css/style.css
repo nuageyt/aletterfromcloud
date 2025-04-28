@@ -685,7 +685,7 @@ div.toast_shown {
 
 /* --- Giảm khoảng cách giữa avatar và tên người gửi --- */
 .userpic {
-    margin-right: 10px !important;
+    margin-right: 8px !important;
 }
 
 
@@ -694,5 +694,18 @@ div.toast_shown {
 .header_wrap {
     display: flex !important;
     align-items: center !important;
-    gap: 10px !important;
+    gap: 6px !important;
+}
+
+.userpic {
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    border-radius: 50% !important;
+    background-color: #3892db !important;
+    color: white !important;
+    text-align: center !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    flex-shrink: 0 !important;
 }
