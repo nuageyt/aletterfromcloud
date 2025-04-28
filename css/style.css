@@ -694,9 +694,13 @@ div.toast_shown {
 .header_wrap {
     display: flex !important;
     align-items: center !important;
-    gap: 6px !important;
+    gap: 2px !important;
 }
 
+.from_name {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .userpic {
     width: 40px !important;
     height: 40px !important;
