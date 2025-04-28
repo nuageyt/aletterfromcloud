@@ -665,8 +665,4 @@ div.toast_shown {
     box-sizing: border-box !important;
 }
 
-.message.default.service .userpic_wrap {
-    display: flex !important;
-    justify-content: center !important;
-    margin-top: 10px;
-}
+
