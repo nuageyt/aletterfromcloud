@@ -644,7 +644,7 @@ div.toast_shown {
     word-break: break-word !important;
     overflow-wrap: break-word !important;
     white-space: normal !important;
-    padding: 0px 0px !important;
+    padding: 0px 10px !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     max-width: 90vw !important;
