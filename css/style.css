@@ -688,6 +688,11 @@ div.toast_shown {
     margin-right: 8px !important;
 }
 
+.userpic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
