@@ -694,22 +694,14 @@ div.toast_shown {
 .header_wrap {
     display: flex !important;
     align-items: center !important;
-    gap: 2px !important;
+    gap: 8px !important;
 }
 
-.from_name {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-.userpic {
-    width: 40px !important;
-    height: 40px !important;
-    line-height: 40px !important;
-    border-radius: 50% !important;
-    background-color: #3892db !important;
-    color: white !important;
-    text-align: center !important;
-    font-size: 18px !important;
-    font-weight: bold !important;
-    flex-shrink: 0 !important;
+
+
+/* --- Flexbox cho avatar và tên người gửi sát nhau --- */
+.header_flex_wrap {
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
 }
