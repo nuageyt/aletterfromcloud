@@ -690,18 +690,21 @@ div.toast_shown {
 
 
 
-/* --- Fix chuẩn: header_wrap dùng flex để avatar và tên gần nhau --- */
-.header_wrap {
-    display: flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-}
-
-
 
 /* --- Flexbox cho avatar và tên người gửi sát nhau --- */
 .header_flex_wrap {
     display: flex !important;
     align-items: center !important;
     gap: 6px !important;
+}
+
+.userpic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #3892db;
 }
