@@ -636,7 +636,11 @@ div.toast_shown {
 }
 
 
-/* --- Override chỉ phần default text --- */
+
+
+
+
+/* --- Override chuẩn phần default text (sát lề trái) --- */
 .default .text {
     font-size: 18px !important;
     line-height: 1.7 !important;
@@ -645,15 +649,13 @@ div.toast_shown {
     overflow-wrap: break-word !important;
     white-space: normal !important;
     padding: 5px 12px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    max-width: 90vw !important;
+    max-width: 95% !important;
     box-sizing: border-box !important;
 }
 
 @media screen and (max-width: 600px) {
     .default .text {
         font-size: 20px !important;
-        max-width: 95vw !important;
+        max-width: 95% !important;
     }
 }
