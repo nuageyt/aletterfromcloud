@@ -639,14 +639,14 @@ div.toast_shown {
 /* --- Override chỉ phần default text --- */
 .default .text {
     font-size: 18px !important;
-    line-height: 1.7 !important;
+    line-height: 1.4 !important;
     text-align: justify !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
     white-space: normal !important;
     padding: 5px 12px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: 0 !important;
+    margin-right: 12 !important;
     max-width: 90vw !important;
     box-sizing: border-box !important;
 }
